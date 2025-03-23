@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Page 2 - Multimodal Project</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Lora:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Header: Title with background image -->
+  <header>
+    <h1>Second Page Content</h1>
+  </header>
+
+  <!-- Middle Section: Three-Column Grid Layout -->
+  <main class="grid-container">
+    <!-- Left Column: Image -->
+    <div class="left-image">
+      <img src="https://via.placeholder.com/300x400.png?text=Left+Image" alt="Left Image">
+    </div>
+
+    <!-- Center Column: Text and Return Button -->
+    <div class="center-text">
+      <h2>Additional Information</h2>
+      <p>
+        Here is some extra detail about the project. You can include more text and images here to further illustrate your work.
+      </p>
+      <button id="backButton">Go Back Home</button>
+    </div>
+
+    <!-- Right Column: Image -->
+    <div class="right-image">
+      <img src="https://via.placeholder.com/300x400.png?text=Right+Image" alt="Right Image">
+    </div>
+  </main>
+
+  <footer>
+    <p>© 2025 Multimodal Published Writing Project</p>
+  </footer>
+
+  <script>
+    // Return to home page when the button is clicked
+    document.getElementById('backButton').addEventListener('click', function(){
+      window.location.href = 'index.html';
+    });
+  </script>
+</body>
+</html>
