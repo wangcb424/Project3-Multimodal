@@ -43,8 +43,8 @@ header h1 {
 /* Left & Right Image Styles */
 .left-image img,
 .right-image img {
-  width: 400px;  /* Set a fixed width */
-  height: 400px; /* Set a fixed height */
+  width: 150px;  /* Set a fixed width */
+  height: 800px; /* Set a fixed height */
   border-radius: 8px;
 }
 
@@ -52,7 +52,7 @@ header h1 {
 .center-text {
   padding: 30px;
   background: linear-gradient(135deg, #fff8c6, #fff2a1);  /* Light, highlighted background */
-  border: 2px solid #ffc107;
+  border: 3px solid #ffc107;
   border-radius: 8px;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.6);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
