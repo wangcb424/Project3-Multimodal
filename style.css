@@ -49,88 +49,6 @@ header h1 {
 }
 
 /* Highlighted Center Content Styles */
-.center-text {
-  padding: 30px;
-  background: linear-gradient(135deg, #fff8c6, #fff2a1);  /* Light, highlighted background */
-  border: 3px solid #ffc107;
-  border-radius: 8px;
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.6);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-  color: #000;  /* Dark text for contrast */
-}
-
-.center-text:hover {
-  transform: scale(1.02);
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.7);
-}
-
-.center-text h2 {
-  font-family: 'Montserrat', sans-serif;
-  color: #d2691e;
-  margin-bottom: 15px;
-  border-bottom: 2px solid #ffc107;
-  padding-bottom: 5px;
-}
-
-.center-text p {
-  margin-bottom: 15px;
-  font-size: 1rem;
-  color: #555;
-}
-
-/* Button Styles */
-button {
-  padding: 12px 24px;
-  font-size: 1rem;
-  background-color: #28a745;
-  color: #fff;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-
-button:hover {
-  background-color: #218838;
-}
-
-/* Footer Styles */
-footer {
-  text-align: center;
-  padding: 15px 0;
-  background-color: #007acc;
-  margin-top: 30px;
-}
-
-/* Responsive Design */
-@media (max-width: 768px) {
-  .grid-container {
-    grid-template-columns: 1fr;
-  }
-  
-  header h1 {
-    font-size: 2rem;
-  }
-}
-
-@media (max-width: 480px) {
-  header h1 {
-    font-size: 1.8rem;
-  }
-  
-  .center-text h2 {
-    font-size: 1.3rem;
-  }
-  
-  .center-text p {
-    font-size: 0.95rem;
-  }
-  
-  button {
-    padding: 10px 20px;
-    font-size: 0.9rem;
-  }
-}
 /* Global Styles */
 body {
   font-family: 'Lora', serif;
@@ -185,6 +103,7 @@ button {
 button:hover {
   background-color: #218838;
 }
+
 
 
 
