@@ -15,6 +15,13 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   }
 
+  const homeButton = document.getElementById('homeButton');
+  if (homeButton) {
+    homeButton.addEventListener('click', function() {
+      window.location.href = 'index.html';
+    });
+  }
+
   const nextButton = document.getElementById('nextButton');
   if (nextButton) {
     nextButton.addEventListener('click', function() {
